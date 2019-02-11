@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vibeard</title>
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link rel= "stylesheet" type ="text/css" href="Librerias/css/estilos.css">
+	<link rel= "stylesheet" type ="text/css" href="Librerias/css/bootstrap.css">
+	<script src="js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width device-width initial scale =1">
+	<meta charset="utf-8">
+	<!--esto es para el datepicker-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.10/js/gijgo.min.js" type="text/javascript"></script>
+	<link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.10/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+	<!--fin codigo datepicker-->
+</head>
+<body background="img/fondo.png">
+	<div class="divnegro"><div class="container-fluid" >
+		<div class ="row">
+			<div class= "col-sm-1"></div>
+			<div class= "col-sm-5"> 
+				<div class="card-body text-secondar">
+					<div class="card-body">
+						<p class="card-text">
+							<form>
+								<div class="form-row" style="padding-top: 10vw">
+									<div class="form-group col-sm-12" align="center">
+										<h5 class="card-title" style="color:white;"><strong>Vibeard </strong>Ingreso</h5>
+
+									</div>
+									<div class="form-group col-sm-12" align="center">
+										<input type="text" class="form-control" placeholder="USUARIO:"><br>
+										<input type="text" class="form-control" placeholder="CONTRASEÑA:">
+										<label for="fecha"  style="color:white;">¿Olvido su contraseña?</label><br>
+									</div>
+									<div class="form-group col-sm-12">
+										<a href="Home.html" role="button" class="btn btn-danger btn-block">INGRESAR</a>
+									</div>	
+								</div>	
+							</form>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class= "col-sm-5" style="margin-top: 5.7vw;"> 
+				<div class="card ">
+					<div class="card-body"  style="margin-top: -1vw;">
+						<p class="card-text">
+							<div class="form-group col-sm-12" align="center">
+								<label for="registro"><h2>REGISTRO</h2></label>
+								<input type="text" class="form-control" placeholder="NOMBRE:"><br>
+								<input type="text" class="form-control" placeholder="APELLIDOS:"><br>
+								<input type="text" class="form-control" placeholder="CORREO:"><br>
+								<input type="password" class="form-control" placeholder="CONTRASEÑA:"><br>
+								<input type="password" class="form-control" placeholder="CONFIRME SU CONTRASEÑA:"><br>
+								<input id="datepicker" width="100%" placeholder="FECHA DE NACIMIENTO:">
+								<script>
+									$('#datepicker').datepicker({
+										uiLibrary: 'bootstrap4'
+									});
+								</script>			<br>					
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">Acepto Terminos y Condiciones
+									</label>
+								</div><br>
+								<button type="button" class="btn btn-primary">ACEPTAR</button>
+								<button type="button" class="btn btn-danger">CANCELAR</button>
+							</div>
+							
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class= "col-sm-1"></div>
+		</div>	
+	</div></div>
+	<div class="nav final">
+		<ul style="width: 100%;" align="right">
+			<li>
+				<img id="logo1" src="img/Vibeard_blanco.png" style="height:4.7vw;" align="left" />
+			</li>
+			<li><a href="https://es-la.facebook.com/" class="final"><img src="img/facebook.png"></a></li>
+			<li><a href="https://www.instagram.com/barberiauniversal/" class="final"><img src="img/instagram.png"></a></li>
+			<li><a href="https://twitter.com/?lang=es" class="final"><img src="img/twitter.png"></a></li>
+		</ul>
+	</div>
+	<br>
+	
+	<br>
+</body>
+</html>

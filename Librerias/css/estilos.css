@@ -1,0 +1,245 @@
+.contenedor {
+	display: flex;
+	height:4.8vw;
+	color:#fff;
+	font-size : 4.5vw;
+	line-height: 4.46vw; 
+	letter-spacing: 0.69vw;
+	overflow: hidden;
+	font-family: lucida brigth;
+}
+.contenedor1 {
+	height:4.8vw;
+	color:#fff;
+	font-size : 1.4vw; 
+	letter-spacing: 0.1vw;
+	overflow: hidden;
+	font-family: lucida brigth;
+}
+
+.contenedor ul {
+	list-style:none;
+	padding-left: 0.69vw;
+	animation:cambiar 7s infinite;
+
+}
+@keyframes cambiar {
+	0%{margin-top: 0;}
+	20%{margin-top:0;}
+	25%{margin-top:-4.375vw;}
+	50%{margin-top:-4.375vw;}
+	55%{margin-top:-9.13vw;}
+	80%{margin-top:-9.13vw;}
+	85%{margin-top:-4.375vw;}
+	95%{margin-top:-4.375vw;}
+	100%{margin-top:0;}
+}
+
+.nav {
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	text-align: center;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+}
+
+.initial {
+	padding: 0 0;
+	box-shadow: rgba(0,0,0,0.35) 0 0 0.138vw;
+	background-color: transparent;
+	color:transparent;
+	text-decoration:none;
+}
+
+.final {
+	box-shadow: rgba(0,0,0,0.35) 0 0.138vw 0.27vw;
+	background-color:rgba(0, 0, 0, 0.8);
+	color:#fff;
+	text-decoration:none;
+}
+.initial a {
+	color:transparent;
+	text-decoration: none;
+}
+
+.final a {
+	color:#fff;
+	text-decoration: none;
+}
+/*aqui es el css para el menu*/
+#logo1 {
+	width:7vw;
+	height:5vw;
+	margin-left:5vw; 
+	margin-top: 0.2vw;
+	margin-bottom: 0.2vw;
+}
+.nav ul {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.nav ul li{
+	display: inline;
+	margin-right:2vw;
+	font-family: lucida bright;
+	font-size: 11px;
+
+}
+.nav ul li a img {
+	margin-top:1.5vw;
+	width: 2vw; 
+}
+body{
+	background-size: 100% 1500%;
+	background-repeat:no-repeat;
+}
+.divnegro {
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+#btn_ingresar {
+	font-size : 3.2vw;
+	letter-spacing: 0.2vw;
+	color:#bd2432;
+	font-family: lucida brigth;
+	padding: 0;
+	height:1vw;
+	padding-top:4.5vw;
+	transition-property: all;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in;
+	text-decoration: none;
+}
+#btn_ingresar:hover{
+	font-size : 3.3vw;
+	letter-spacing: 0.3vw;
+	color:#bd2432;
+	transition-property: all;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in;
+	width: 1vw;
+
+}
+
+a{
+	text-decoration: none ! important;
+} 
+#flecha{
+	width: 4vw;
+	position:absolute;
+	top: 43.5vw;
+	left:49%;
+	transition-property: all;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in;
+	border-radius: 50%;
+}
+#flecha:hover{
+	width: 5vw;
+	transition-property: all;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in;
+	border-radius: 50%;
+	left: 48.5%;
+}
+/*termina css menu*/
+/* AQUI COMENZAMOS EL CSS PARA LA APP DE VIBEARD DESPUES DE INGRESAR */
+
+.punticos li { padding: 0.3vw;
+	display: inline-block;
+
+}
+.menu ul{
+	list-style: none;
+	color:#a7a3a3;
+	font-size: 1vw;
+	height:26.55vw;
+	padding-left: 2vw;
+	padding-top: 3vw;
+}
+.menu ul li{
+	padding-top: 2.3vw;
+	
+}
+.menu ul li:hover{
+	background-color: white;
+
+}
+.menu ul li div {
+	width:0.8vw;
+	height:0.8vw;
+	border-radius:50%;
+	border: solid 0.15vw #308361;
+	overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
+	display: inline-block;
+}
+.glyphicon.glyphicon-menu-left {
+	font-size: 2vw;
+	color: white;
+	margin-top: 2vw;
+	margin-left: 5vw;
+}
+.glyphicon.glyphicon-menu-right {
+	font-size: 2vw;
+	color: white;
+	margin-top: 2vw;
+	position: 0vw;
+	margin-left: 3vw;
+}
+#logo {
+	width:7vw;
+	height:5vw;
+	margin-left:5vw; 
+	margin-top: 0.7vw;
+	margin-bottom: 0.7vw;
+}
+.perfil {
+	width: 4vw;
+	margin-right: 3vw;
+	margin-top:1.2vw; 
+}
+.sidebar {
+	background-color:#001515;
+	width: 12vw;
+	border-radius: 3%;
+	position: absolute;
+	top: 7.5vw;
+	left: 1vw;
+	color:white;
+	font-family: lucida bright;
+	font-size: 1.2vw;
+}
+.sidebar ul {
+	list-style: none;
+}
+.logouniversal {
+	width: 6.5vw;
+	margin-bottom: 1vw;
+	margin-top: 2vw;
+}
+.sidebar ul li ul {
+	list-style: none;
+	padding-left: 4vw;
+	padding-top: 1vw ;
+	padding: 0.3vw;
+	display: inline-flex;
+	margin-bottom: 4vw;
+
+
+}
+.sidebar ul li ul li img {
+	width: 1.7vw;
+	height: 1.7vw;
+	margin-left: 0.25vw;
+
+}
+.menusidebar li {
+	margin-bottom: 2.4vw;
+}
